@@ -1,6 +1,6 @@
 # JogoGenius
 
-1. Descrição de utilização (passo a passo de como o jogo funciona).
+#### 1. Descrição de utilização (passo a passo de como o jogo funciona).
 
 Na tela inicial, o jogador terá de selecionar em um menu drop-down em qual das categorias de idade ele se encaixa.
 Após selecionar, ele irá clicar no botão de instruções e será redirecionado para essa tela.
@@ -12,23 +12,23 @@ No terceiro turno, três cores irão piscar, o usuário terá de clicar na sequ�
 Quando o jogador clicar em alguma cor que não estava na sequência, o jogo acaba e ele irá ser redirecionado para uma
 tela com a sua pontuação, a melhor pontuação de todos os jogadores e um botão que permite reiniciar o jogo.
 
-2. Principais telas do jogo funcionando
+#### 2. Principais telas do jogo funcionando
 
 Tela de inicio - Nome dos integrantes, menu drop-down com range de idades e botão de instruções.
 Tela de instruções - Instruções do jogo e botão de inicio do jogo.
 Tela do jogo - Uma interface adaptada para cada idade, mas todas com os quatro botões com cores diferentes.
 Tela final - Pontuação do jogador, melhor pontuação de todos os jogadores e botão de reiniciar.
 
-3. Linguagens e ferramentas utilizadas
+#### 3. Linguagens e ferramentas utilizadas
 
 As linguagens utilizadas foram: HTML5, CSS e JavaScript.
 As ferramentas foram: o Visual Studio Code
 
-4. Plataforma utilizada
+#### 4. Plataforma utilizada
 
 A plataforma utilizada foi: web.
 
 
-5. Equipamento utilizado para o desenvolvimento
+#### 5. Equipamento utilizado para o desenvolvimento
 
 O equipamento utilizado foi: ????
