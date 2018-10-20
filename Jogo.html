@@ -1,35 +1,40 @@
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <title>Memorizando</title>
-    <script src="./Jogo.js"></script>
-    <link rel="stylesheet" type="text/css" href="Jogo.css">
+  <meta charset="utf-8">
+  <title>Memorizando</title>
+  <script src="./Jogo.js"></script>
+  <link rel="stylesheet" type="text/css" href="Jogo.css">
 </head>
+
 <body>
-<div id="full">
+  <div id="full">
     <div id="jogo">
+      <div class="rowColors">
         <div id="peca1" class="peca peca1unsel" sel="peca1sel" unsel="peca1unsel"></div>
         <div id="peca2" class="peca peca2unsel" sel="peca2sel" unsel="peca2unsel"></div>
+      </div>
+      <div class="rowColors">
         <div id="peca3" class="peca peca3unsel" sel="peca3sel" unsel="peca3unsel"></div>
         <div id="peca4" class="peca peca4unsel" sel="peca4sel" unsel="peca4unsel"></div>
-    </div>
-    <div id="teste">
-        <h1>Ola</h1>
+      </div>
     </div>
     <div id="control">
-        <table>
-            <tr>
-                <td><div id="sequencia"></div></td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" id="chkShowSequence"    /><label for="chkShowSequence">Mostrar sequência?</label></td>
-            </tr>
-            <tr>
-                <td><input type="button" id="cmdNewGame" value="Novo jogo"/><input type="text" id="txtQtdRepeticoes" value="10"/></td>
-            </tr>
-        </table>
+      <table>
+        <tr>
+          <td>
+            <div id="sequencia"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" id="cmdNewGame" value="Novo jogo" /></td>
+        </tr>
+        <tr id="results">
+          <td><label class="seq_label">Número de acertos: </label><label id="seq_num" class="seq_label">1</label></td>
+        </tr>
+      </table>
     </div>
-    <button onclick="ola()">OLA</button>
-</div>
+  </div>
 </body>
+
 </html>
