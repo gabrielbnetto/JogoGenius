@@ -3,7 +3,7 @@
 #### 1. Descrição de utilização (passo a passo de como o jogo funciona).
 
 Na tela inicial, o jogador terá de selecionar em um menu drop-down em qual das categorias de idade ele se encaixa.
-Após selecionar, ele irá clicar no botão de instruções e será redirecionado para essa tela.
+Após selecionar, ele irá clicar no botão de instruções e irá descer uma caixa com as instruções.
 Após ler as instruções, o usuário irá clicar no botão de iniciar o jogo.
 Ao clicar no botão, irá aparecer uma tela com quatro cores diferentes que irão piscar e o jogador terá que repetir.
 No primeiro turno, apenas uma cor irá piscar e o usuário terá que clicar na cor que piscou.
@@ -14,8 +14,7 @@ tela com a sua pontuação, a melhor pontuação de todos os jogadores e um bot�
 
 #### 2. Principais telas do jogo funcionando
 
-Tela de inicio - Nome dos integrantes, menu drop-down com range de idades e botão de instruções.
-Tela de instruções - Instruções do jogo e botão de inicio do jogo.
+Tela de inicio - Nome dos integrantes, menu drop-down com range de idades e botão de instruções, que quando apertado, irá abrir um box com as instruções e um botão de iniciar o jogo.
 Tela do jogo - Uma interface adaptada para cada idade, mas todas com os quatro botões com cores diferentes.
 Tela final - Pontuação do jogador, melhor pontuação de todos os jogadores e botão de reiniciar.
 
