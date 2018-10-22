@@ -9,8 +9,27 @@ Tela de inicio - Na tela de Nome dos integrantes, menu drop-down com range de id
 ###3. Linguagens e ferramentas utilizadas
 As linguagens utilizadas foram: HTML5, CSS e JavaScript. As ferramentas foram: o Visual Studio Code, Atom Bootstrap.
 
+<<<<<<< HEAD
 ###4. Plataforma utilizada
 A plataforma utilizada foi: Web.
 
 ###5. Equipamento utilizado para o desenvolvimento
+=======
+Tela de inicio - Na tela de Nome dos integrantes, menu drop-down com range de idades e botão de instruções, que quando apertado, irá abrir um box com as instruções e um botão de iniciar o jogo.
+Tela do jogo - Uma interface adaptada para cada idade, mas todas com os quatro botões com cores diferentes.
+Tela final - Pontuação do jogador, melhor pontuação de todos os jogadores e botão de reiniciar.
+
+#### 3. Linguagens e ferramentas utilizadas
+
+As linguagens utilizadas foram: HTML5, CSS e JavaScript.
+As ferramentas foram: o Visual Studio Code, Atom Bootstrap.
+
+#### 4. Plataforma utilizada
+
+A plataforma utilizada foi: Web.
+
+
+#### 5. Equipamento utilizado para o desenvolvimento
+
+>>>>>>> 0dbb73c3130270d40e7e33e7812d5286a5137c5f
 O equipamento utilizado foi: 3 Notebooks.
