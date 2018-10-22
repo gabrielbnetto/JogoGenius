@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="Home.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 </head>
-<body class=" divPrincipal"> 
+<body class=" Principal"> 
     <div class="text-center container">
         <h1><img src="./logo.png" alt="logo"></h1><br><br>
         <img class="img" src="./memoria.png" alt="memoria">
@@ -19,21 +19,49 @@
                 
             </div>
             <div class="col-md-4">
-                    <select cl  ass="form-control">
-                    <option>Selecione sua idade</option>
-                      <option value="1">6-14</option>
-                      <option value="2">15-45</option>
-                      <option value="3">46...</option>
+                    <select class="form-control" id="idade">
+                        <option value="0" >Selecione sua idade</option>
+                        <option value="1">6-14</option>
+                        <option value="2">15-45</option>
+                        <option value="3">46...</option>
                     </select>
                     <br><br>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="lerInstrucoes()">
                         Ler Intruções
                     </button>
                     
                     <div class="collapse" id="collapseExample">
                     <div class="card card-body">
-                        XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXXX XXXXXXX
-                        <button class="btn btn-primary">Iniciar Jogo</button>
+                        <div id="criancas">
+                            <p>Ola crianças, bem-vindas ao Memorizando</p>
+                            <p>- O jogo é um círculo, como uma pizza dividida em 4 pedaços <img src="./icone.jpeg" alt="icone" width="100px"></p>
+                            <p>- Quando começar, uma cor irá piscar e você tem que clicar na cor que piscou, depois o número de piscadas vai aumentando e você continua clicando</p>
+                            <img src="./mouse.jpeg" alt="mouse">
+                            <p>- Quando você errar as cores que piscaram, não tem problema, o jogo irá acabar, mas você pode começar ele novamente.</p>
+                            <p>- Boa sorte Pessoal!</p>
+                        </div>
+                        <div id="adultos">
+                            <p>Olá jogadores, bem-vindo ao Memorizando:</p> 
+                            <p>- O jogo é um círculo, divid o em quatro cores</p>    
+                            <img src="./icone.jpeg" alt="icone" width="50px" height="50px">   
+                            <p>- Quando começar, 1 cor irá piscar e você tem que clicar na cor que piscou</p> 
+                            <p>- Na segunda rodada, a primeira cor irá piscar mais uma nova e você tem que clicar nas duas e assim por diante, sempre aumentando uma nova cor.</p> 
+                            <p>- Quando você errar as cores que piscaram, não tem problema, o jogo irá acabar, mas você pode começar ele de novo</p> 
+                            <p>- Quanto mais acertar, o contador em baixo do círculo irá aumentar.</p> 
+                            <p>- Boa sorte e bom jogo!</p> 
+                        </div>
+                        <div id="idosos">
+                            <p>Olá jogador, bem-vindo ao Memorizando, o jogo é só:</p>
+                            <p>- O jogo é um círculo como uma pizza</p>
+                            <img src="./icone.jpeg" alt="icone" width="50px" height="50px">   
+                            <p>- Quando começar uma cor irá piscar</p>
+                            <img src="./3icones.jpeg" alt="3icones" width="200px">
+                            <p>- Você deve clicar nas cores repetindo a sequencia que piscou anteriormente</p>
+                            <img src="./mouse.jpeg" alt="mouse">
+                            <p>- Se errar não tem problema, você pode reiniciar o jogo</p>
+                            <p>Bom jogo jogador</p>
+                        </div>
+                        <button class="btn btn-primary" onclick="mudarPagina()">Iniciar Jogo</button>
                     </div>
                 </div>
             </div>
