@@ -271,11 +271,15 @@ var game = (function() {
 }());
 
 window.onload = function() {
+  mudaLayout();
   //game.newGame(4);
   //game.showAllSequence();
   document.getElementById("results").hidden = true;
+  document.getElementById("close").onclick = function() {
+    document.getElementById('myModal').style.display = "none";
+  }
   document.getElementById("cmdNewGame").onclick = function() {
-    if (window.confirm("Você está pronto?")) {
+    if (true){ //window.confirm("Você está pronto?")) {
       var repet = 1000; //document.getElementById("txtQtdRepeticoes").value;
       var show = false; //document.getElementById("chkShowSequence").checked;
       game.newGame(repet, show);
@@ -285,7 +289,9 @@ window.onload = function() {
 
       game.defineOnWrongSequenceEvent(
         function(quantidade) {
-          alert('Sequência errada ' + quantidade);
+          //alert('Sequência errada ' + quantidade);
+          document.getElementById('textoFinal').innerHTML = "Seu número de acertos foi: " + (quantidade-1);
+          document.getElementById('myModal').style.display = 'block';
           document.getElementById("cmdNewGame").hidden = false;
           document.getElementById("results").hidden = true;
         }
@@ -304,9 +310,7 @@ window.onload = function() {
   }
 }
 
-var teste = document.getElementById("teste");
-
-function ola() {
-  alert(teste);
-  teste.style.visibility = "hidden";
+function mudaLayout(){
+  var tipoPessoa = localStorage.getItem('tipoPessoa');
+  console.log(tipoPessoa);
 }

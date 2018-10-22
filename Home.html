@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="Home.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 </head>
-<body class=" Principal"> 
+<body class=" Principal" onload="lerInstrucoes()"> 
     <div class="text-center container">
         <h1><img src="./logo.png" alt="logo"></h1><br><br>
         <img class="img" src="./memoria.png" alt="memoria">
@@ -19,14 +19,15 @@
                 
             </div>
             <div class="col-md-4">
-                    <select class="form-control" id="idade">
-                        <option value="0" >Selecione sua idade</option>
+                    <p id="title">Selecione sua idade:</p>
+                    <select class="form-control" id="idade" onchange="lerInstrucoes()">
+                        <option value="0" ></option>
                         <option value="1">6-14</option>
                         <option value="2">15-45</option>
                         <option value="3">46...</option>
                     </select>
                     <br><br>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="lerInstrucoes()">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="botaoInstrucoes">
                         Ler Intruções
                     </button>
                     
@@ -61,7 +62,10 @@
                             <p>- Se errar não tem problema, você pode reiniciar o jogo</p>
                             <p>Bom jogo jogador</p>
                         </div>
-                        <button class="btn btn-primary" onclick="mudarPagina()">Iniciar Jogo</button>
+                        <div class="text-center" id="alerta">
+                            <p>Selecione a idade</p>
+                        </div>
+                        <button class="btn btn-primary" id="iniciaJogo" onclick="mudarPagina()">Iniciar Jogo</button>
                     </div>
                 </div>
             </div>
@@ -70,15 +74,16 @@
             </div>
         </div><br>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
+                
+            </div>
+            <div class="col-md-6">
                 <div style="color: white;font-style: italic"> 
-                    <h2>Integrantes</h2>
-                    <p>Fernando Ferreira Cunha</p>
-                    <p>Gabriel Boccia Netto</p>
-                    <p>Gabriel Dias Marinho </p>
+                    <p style="font-weight: bold">Integrantes: </p>
+                    <p>Fernando Ferreira Cunha - Gabriel Boccia Netto - Gabriel Dias Marinho </p>
                 </div>
             </div>
         </div>
