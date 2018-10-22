@@ -14,20 +14,20 @@ tela com a sua pontuação, a melhor pontuação de todos os jogadores e um bot�
 
 #### 2. Principais telas do jogo funcionando
 
-Tela de inicio - Nome dos integrantes, menu drop-down com range de idades e botão de instruções, que quando apertado, irá abrir um box com as instruções e um botão de iniciar o jogo.
+Tela de inicio - Na tela de Nome dos integrantes, menu drop-down com range de idades e botão de instruções, que quando apertado, irá abrir um box com as instruções e um botão de iniciar o jogo.
 Tela do jogo - Uma interface adaptada para cada idade, mas todas com os quatro botões com cores diferentes.
 Tela final - Pontuação do jogador, melhor pontuação de todos os jogadores e botão de reiniciar.
 
 #### 3. Linguagens e ferramentas utilizadas
 
 As linguagens utilizadas foram: HTML5, CSS e JavaScript.
-As ferramentas foram: o Visual Studio Code
+As ferramentas foram: o Visual Studio Code, Atom Bootstrap.
 
 #### 4. Plataforma utilizada
 
-A plataforma utilizada foi: web.
+A plataforma utilizada foi: Web.
 
 
 #### 5. Equipamento utilizado para o desenvolvimento
 
-O equipamento utilizado foi: ????
+O equipamento utilizado foi: 3 Notebooks.
